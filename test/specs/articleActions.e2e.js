@@ -5,7 +5,7 @@ import data from '../fixtures/data';
 import EditorPage from '../pageobjects/editor.page';
 import ArticleDetailsPage from '../pageobjects/articleDetails.page';
 
-describe('My articles tests', () => {
+describe('Test crud operations on articles', () => {
     beforeEach(() => {
         LandingPage.open();
         LandingPage.clickSignIn();
