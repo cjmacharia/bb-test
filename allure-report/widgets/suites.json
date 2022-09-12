@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"d89234cab04927cccf1e08eaa7f485fe","name":"My application","statistic":{"failed":0,"broken":0,"skipped":0,"passed":7,"unknown":0,"total":7}},{"uid":"e796c1854ec1011b0ea8e4cc6ce0a61e","name":"My articles tests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":3,"unknown":0,"total":3}}]}
