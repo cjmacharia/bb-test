@@ -3,7 +3,7 @@ import LandingPage from '../pageobjects/landing.page';
 import HomePage from '../pageobjects/home.page';
 import data from '../fixtures/data';
 
-describe('My application', () => {
+describe('Register journey tests', () => {
     beforeEach(() => {
         LandingPage.open();
         LandingPage.clickSignUp();

@@ -17,7 +17,9 @@
         "wdio-chromedriver-service": "^7.3.2"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js"
+        "pretest": "rm -R -f allure-results",
+        "test": "npx wdio run wdio.conf.js",
+        "posttest": "allure open"
     },
     "dependencies": {
         "allure-commandline": "^2.18.1"
