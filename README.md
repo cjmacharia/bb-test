@@ -8,4 +8,7 @@ USERNAME="""""" EMAIL=*********** PASSWORD=*******
 
 run tests `npm test`
 
-View allure reports `allure open allure-report`
+View automated test reports with allure-report `allure open allure-report`
+
+
+
